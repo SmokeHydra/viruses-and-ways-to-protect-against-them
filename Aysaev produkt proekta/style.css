@@ -1,0 +1,521 @@
+@font-face {
+    font-family: "bignoodletitling";
+    src: url(font/bignoodletitling.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 990px) {
+    .price-content-head {
+        min-height: 185px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .price-content-head {
+        min-height: auto;
+    }
+
+}
+
+body {
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 300;
+    color: #2a105e88;
+}
+
+.topheader {
+    position: fixed;
+    width: 100%;
+    background-color: #0a181a;
+    height: 65px;
+    z-index: 10000;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 10%;
+    bottom: auto;
+}
+
+.logo>a>img {
+    height: 50px;
+    padding-right: 10px;
+}
+
+.logo>a {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    font-family: bignoodletitling;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: initial;
+    margin: 0px;
+    color: #696969;
+    
+}
+
+.banner {
+    background: url(images/slider.jpg) #402b65;
+    background-blend-mode: difference;
+    background-size: cover;
+    min-height: 710px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.banner h2{
+    font-family: bignoodletitling;
+    font-size: 3rem;
+}
+
+.banner p{
+    font-family: bignoodletitling;
+    font-size: 2rem;
+}
+
+.bx-wrapper {
+    background: none;
+    border: none;
+    box-shadow: none;
+    -webkut-box-shadow: none;
+}
+
+.bx-wrapper .bx-prev {
+    background: url(images/left.png);
+    background-size: contain;
+}
+
+.bx-wrapper .bx-next {
+    background: url(images/right.png);
+    background-size: contain;
+}
+
+.head_white_content > h3 {
+    font-family: bignoodletitling ;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.head_white_content > span {
+    width: 140px;
+    height: 2px;
+    background: #402b65;
+    display: inline-block;
+}
+
+.head_white_content > p {
+    padding: 20px 10% 0px;
+}
+
+.head_white_content {
+    padding: 50px;
+    text-align: center;
+}
+
+.aboutus, .somefeature, .team, .price, .request, .ourworks {
+    padding-bottom: 50px;
+}
+
+.advantage {
+    text-align: center;
+    width: 100%;
+    padding: 10%;
+    background-color: #c6efe1;
+    margin: 2% 0;
+}
+
+.advantage > span {
+    font-size: 60px;
+    color:#402b65 ;
+}
+
+.black {
+    background-color: black;
+    color: #bebebe;
+}
+
+.head_black_content {
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+
+.head_black_content > h3 {
+    font-family: bignoodletitling;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.head_black_content > span {
+    display: inline-block;
+    width: 85px;
+    height: 2px;
+    background-color: #7adab5;
+}
+
+.feature {
+    text-align: center;
+
+}
+
+.feature > span {
+    font-size: 60px;
+}
+
+.feature > p {
+    margin: 20px;
+}
+
+.feature > h4 {
+    font-size: 2rem;
+    font-family: bignoodletitling;
+}
+
+.head_black_content > p {
+    padding: 20px 10% 0; /* отступ сверху | отступ слева и справа | отступ снизу */
+}
+
+.price-content-head {
+    text-align: center;
+    background-color: #696969;
+    padding: 10px;
+   
+}
+
+.price-content-head > h4 {
+    font-family: bignoodletitling;
+    font-size: 30px;
+
+}
+
+.price-content-head > h5 {
+    padding-top: 14px;
+    font-size: 16px;
+}
+
+.price-content-head > p {
+    font-size: 12px;
+}
+
+.price-content-body {
+    padding: 70px 0;
+    text-align: center;
+    
+}
+
+.price [class^=col-] {
+    padding: 0;
+}
+
+
+
+.price-content:hover {
+    outline: 3px solid #28795a;
+    outline-offset: -3px;
+}
+
+.price-content:hover .price-content-head {
+    background-color: #28795a;
+}
+
+.left {
+    background-color: #bebebe;
+    min-height: 400px;
+    padding: 30% 7%;
+    text-align: center;
+    color: #000;
+
+}
+
+.left > div {
+    height: 150px;
+    width: 150px;
+    background-color: #28795a;
+    border-radius: 75px;
+    margin: 0 auto;
+}
+
+.left > h4 {
+    font-family: "bignoodletitling";
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.left > a {
+    font-size: 20px;
+    color: #402b65;
+    margin: 5px;
+}
+
+.left > h6 {
+    margin-bottom: 15px;
+}
+
+.right {
+    background-color: #bebebe;
+    min-height: 400px;
+    padding: 10% 10%;
+}
+
+
+.right > h4 {
+    font-family: "bignoodletitling";
+    font-size: 36px;
+    color: #000;
+}
+
+.right > .horizontall {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right > .horizontall > .progress {
+    width: 75%;
+}
+
+.right > .horizontall > span {
+    font-family: "bignoodletitling";
+    font-size: 20px;
+    color: #000;
+}
+
+.right > .horizontall > span {
+    font-family: "bignoodletitling";
+    font-size: 20px;
+    color: #000;
+    padding: 2% 10%;
+}
+
+.team-slide {
+    margin-right: 20px;
+}
+
+.team .bx-wrapper .bx-pager,
+.team .bx-wrapper .bx-controls-auto{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: -35%;
+}
+
+.form-floating > label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    left: 15px;
+    color: #000;
+}
+
+.request form {
+    display: flex;
+    justify-content: center;
+}
+
+.request form > div {
+    width: 70%;
+}
+
+.form-floating > .form-control {
+    margin: 5px;
+}
+
+#comment {
+    height: 150px;
+}
+
+#label-comment {
+    display: block;
+    top: 7px;
+}
+
+.submit {
+    background-color: #28795a;
+    border: none;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.submit:hover {
+    background-color: rgb(28, 87, 64);
+    border: none;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    background-color: rgb(28, 87, 64);
+    border: none;
+}
+
+.accordion-button:not(:focus-visible),
+.accordion-button:not(.collapsed){
+    background-color: #000;
+    font-family: "bignoodletitling";
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+
+
+.accordion-item, 
+.accordion-item:first-of-type .accordion-button,
+.accordion-item:first-of-type .accordion-button.collapsed,
+.accordion-item:last-of-type .accordion-button,
+.accordion-item:last-of-type .accordion-button.collapsed {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+}
+
+.accordion-button::after {
+    font-family: 'Linearicons-Free';
+    background-image: none;
+    content: '\e873';
+    height: auto;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+.accordion-header {
+    background-color: #000000;
+}
+
+.accordion-button {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.accordion-body {
+    padding: 0;
+}
+
+footer {
+    background-color: #000000;
+    padding: 5% ;
+    text-align: center;
+}
+
+footer h4 {
+    font-family: "bignoodletitling";
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+}
+
+footer p a {
+    color: white;
+}
+
+footer p a:hover {
+    color: #c2ecdc
+}
+
+footer a {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+footer p {
+    font-size: 25px;
+    
+}
+
+.map {
+    padding: 10px 0% 0%;
+}
+
+.controls {
+     display: flex;
+     margin: 20px;
+     justify-content: center;
+     background-color: #f8f6f6;
+}
+
+.control {
+    padding: 10px;
+    border: 0px;
+    background-color: #f8f6f6;
+}
+
+.mix {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid red;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.mix img {
+    position: absolute;
+    border-radius: 5px;
+    top: 0px;
+    width: 199px;
+    height: 99px;
+    z-index: -10;
+}
+
+.container-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mixtup-control-active {
+    font-weight: 700;
+    color: #402b65;
+}
+
+.ourworks .head_white_content {
+    padding-bottom: 0;
+}
+.mix p {
+    position: absolute;
+    color: #f8f6f6;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    padding: 20%;
+    transition: opacity 0.5s ease;
+}
+
+.mix:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+
+.send_success {
+    background-color: green;
+}
+
+.send_fail {
+    background-color: red;
+}
